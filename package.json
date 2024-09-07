@@ -1,0 +1,18 @@
+{
+  "name": "microsoft_landing_clone",
+  "version": "1.0.0",
+  "description": "<p>This is an another project for learning tailwind css </p>\r <p>In this part i will be learning to create a landing page of microsoft using tailwind css </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.3"
+  }
+}
