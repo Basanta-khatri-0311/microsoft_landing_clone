@@ -8,41 +8,61 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="nav-bar flex justify-between items-center p-4">
-      <div class="flex justify-center items-center md:order-2">
-        <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
-          <div class="line h-0.5 w-5 my-1 bg-black"></div>
-          <div class="line h-0.5 w-5 my-1 bg-black"></div>
-          <div class="line h-0.5 w-5 my-1 bg-black"></div>
+    <div class="container mx-auto">
+      <div class="nav-bar flex justify-between items-center p-4">
+        <div class="flex justify-center items-center md:order-2">
+          <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+            <div class="line h-0.5 w-5 my-1 bg-black"></div>
+            <div class="line h-0.5 w-5 my-1 bg-black"></div>
+            <div class="line h-0.5 w-5 my-1 bg-black"></div>
+          </div>
+          <div class="search md:hidden">search</div>
         </div>
-        <div class="search md:hidden">search</div>
-      </div>
-      <div class="logo flex md:order-1">
-        <div>Microsoft</div>
-        <div class="features absolute md:static w-fit md:w-auto md:bg-white md:translate-x-0 inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 bg-gray-200">
-          <div class="fitems">Mictosoft 365</div>
-          <div class="fitems">Office</div>
-          <div class="fitems">Windows</div>
-          <div class="fitems">Surface</div>
-          <div class="fitems">Xbox</div>
-          <div class="fitems">Support</div>
+        <div class="logo flex md:order-1">
+          <div class="p-4 w-48"><img src="/mslogo.png" alt="" /></div>
+          <div
+            class="features absolute md:static w-fit md:w-auto md:bg-white md:translate-x-0 inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 bg-gray-200"
+          >
+            <div class="fitems">Mictosoft 365</div>
+            <div class="fitems">Office</div>
+            <div class="fitems">Windows</div>
+            <div class="fitems">Surface</div>
+            <div class="fitems">Xbox</div>
+            <div class="fitems">Support</div>
+          </div>
+        </div>
+        <div class="cart flex justify- items-center md:order-3">
+          <div class="search hidden md:block">search</div>
+          <div>cart account</div>
         </div>
       </div>
-      <div class="cart flex justify- items-center md:order-3">
-        <div class="search hidden md:block">search</div>
-        <div>cart account</div>
+      <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mx-2">
+        <div
+          class="left flex flex-col justify-center items-center md:items-baseline py-12"
+        >
+          <h1 class="text-2xl font-medium md:text-4xl mx-5">
+            Surface Laptop 4
+          </h1>
+          <p class="w-3/4 mx-5 text-center md:text-left">
+            Do it with a perfect balance of sleek, ultra-thin design,
+            multitasking speed and improved performance
+          </p>
+          <button
+            class="shop-btn text-white bg-black px-4 py-2 my-6 mx-5 font-bold"
+          >
+            Shop Now >
+          </button>
+        </div>
+        <div class="right">
+          <img src="/surface.avif" alt="" class="w-96 md:w-[64rem]"/>
+        </div>
       </div>
-    </div>
-    <div class="slider flex flex-col-reverse md:flex-row bg-[#e6e6e6]">
-      <div class="left flex flex-col justify-center ">
-        <h1 class="text-4xl mx-5">
-          Surface Laptop 4
-        </h1>
-        <P class="w-3/4">Do it with a perfect balance of sleek, ultra-thin design, multitasking speed and improved performance</P>
-        <button class="shop-btn"></button>
-      </div>
-      <div class="right">
-        <img src="/surfacebook.jpg" alt="" class="w-1/2">
+      <div class="promo">
+        <div class="item"><img src="/ic1.svg" alt=""><span></span></div>
+        <div class="item"><img src="/ic2.svg" alt=""><span></span></div>
+        <div class="item"><img src="/ic3.svg" alt=""><span></span></div>
+        <div class="item"><img src="/ic4.svg" alt=""><span></span></div>
+        <div class="item"><img src="/ic5.svg" alt=""><span></span></div>
       </div>
     </div>
   </body>
